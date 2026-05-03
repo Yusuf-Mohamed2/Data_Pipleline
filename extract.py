@@ -15,3 +15,4 @@ def fetch_weather():
         raise Exception(f"API Error: {response.status_code}")
 
     return response.json()
+print("Sucess!")
